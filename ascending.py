@@ -6,7 +6,7 @@ def insertionsort(a):
         i=b
         while i>0:
             if a[i]<=a[i-1]:
-                a[i],a[i+1]=a[i+1],a[i]
+                a[i],a[i-1]=a[i-1],a[i]
 
             else:
                 break
